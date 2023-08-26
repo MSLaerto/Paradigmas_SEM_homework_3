@@ -21,6 +21,7 @@ class ShapeFactory:
         else:
             return(f"Неизвестный тип фигуры: {shape_type}")
 
+
 circle = ShapeFactory.create_shape("circle")
 square = ShapeFactory.create_shape("square")
 triangle = ShapeFactory.create_shape("triangle")
